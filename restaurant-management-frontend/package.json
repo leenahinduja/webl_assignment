@@ -1,5 +1,11 @@
 "homepage": "https://leenahinduja.github.io/webl_assignment"
 
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 
 {
   "name": "restaurant-management-frontend",
